@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pertemuan9.abstractclass;
+
+/**
+ *
+ * @author ELA-PC
+ */
+public class Program {
+    public static void main(String[] args) {
+        Kucing kucingKampung = new Kucing();
+        Ikan LumbaLumba = new Ikan();
+        
+        Orang ani = new Orang("Ani");
+        Orang budi = new Orang("Budi");
+        
+        ani.peliharaanHewan(kucingKampung);
+        budi.peliharaanHewan(LumbaLumba);
+        
+        ani.ajakPeliharaanJalanJalan();
+        budi.ajakPeliharaanJalanJalan();
+    }
+ 
+}
